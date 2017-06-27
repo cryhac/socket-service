@@ -1,0 +1,11 @@
+.buildpath
+.project
+.settings
+.idea/modules.xml
+.idea/workerman-chat.iml
+.idea/workspace.xml
+composer.lock
+vendor/
+laravel.log
+service.log
+.idea/

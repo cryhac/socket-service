@@ -1,0 +1,21 @@
+{
+  "name": "will/websocket-service",
+  "type": "project",
+  "keywords": [
+    "websocket"
+  ],
+  "homepage": "http://www.workerman.net",
+  "license": "MIT",
+  "require": {
+    "workerman/gateway-worker": ">=3.0.0",
+    "predis/predis": "^1.1",
+    "illuminate/redis": "^5.4",
+    "illuminate/log": "^5.4",
+    "symfony/var-dumper": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "Applications/App"
+    }
+  }
+}
